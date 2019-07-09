@@ -1,6 +1,7 @@
 <html>
 <body>
 <?php
+	phpinfo() ;
 define("USERNAME", "manishbattu@dev.com");
 define("PASSWORD", "manomani@2169");
 define("SECURITY_TOKEN", "oqwAHteZvrpluSMW2LsRiDps");
