@@ -9,7 +9,6 @@ require_once ('soapclient/SforcePartnerClient.php');
 $mySforceConnection = new SforcePartnerClient();
 $mySforceConnection->createConnection("PartnerWSDL.xml");
 $mySforceConnection->login(USERNAME, PASSWORD.SECURITY_TOKEN);
-echo 'mySforceConnection'.$mySforceConnection;
 if($mySforceConnection !=NULL)
 {
 	echo 'Connected successfully to '.USERNAME.'<br><br>';
