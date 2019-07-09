@@ -28,6 +28,7 @@ require_once ('SforceEmail.php');
 require_once ('SforceProcessRequest.php');
 require_once ('ProxySettings.php');
 require_once ('SforceHeaderOptions.php');
+echo 'insied base class';
 
 /**
  * This file contains one class.
