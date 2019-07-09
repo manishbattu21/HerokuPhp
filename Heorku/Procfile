@@ -1,0 +1,1 @@
+web: soapclient -i custom_php.ini
