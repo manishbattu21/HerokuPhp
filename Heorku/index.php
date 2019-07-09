@@ -7,7 +7,7 @@ define("SECURITY_TOKEN", "oqwAHteZvrpluSMW2LsRiDps");
 require_once ('soapclient/SforcePartnerClient.php');
 
 $mySforceConnection = new SforcePartnerClient();
-$mySforceConnection->createConnection("PartnerWSDL.xml");
+$mySforceConnection->createConnection("PartnerWSDL.xml","null");
 $mySforceConnection->login(USERNAME, PASSWORD.SECURITY_TOKEN);
 if($mySforceConnection !=NULL)
 {
