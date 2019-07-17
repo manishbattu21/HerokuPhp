@@ -127,10 +127,6 @@ class SforceBaseClient {
 		}
 
   	$this->sforce = $this->getSoapClient($wsdl, $soapClientArray);
-	foreach($this->sforce as $s)
-	{
-		echo 'array'.$s.'<br>';
-	}
 		return $this->sforce;
 	}
 
