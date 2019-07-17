@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-	phpinfo() ;
+
 define("USERNAME", "manishbattu@dev.com");
 define("PASSWORD", "manomani@2169");
 define("SECURITY_TOKEN", "oqwAHteZvrpluSMW2LsRiDps");
@@ -12,7 +12,7 @@ $mySforceConnection->createConnection("PartnerWSDL.xml");
 $mySforceConnection->login(USERNAME, PASSWORD.SECURITY_TOKEN);
 if($mySforceConnection !=NULL)
 {
-	echo 'Connected successfully to '.USERNAME.'<br><br>';
+	echo '<b>Connected successfully to <b>'.USERNAME.'<br><br>';
 }
 else
 {
